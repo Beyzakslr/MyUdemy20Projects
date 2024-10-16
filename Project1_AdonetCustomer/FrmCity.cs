@@ -95,5 +95,10 @@ namespace Project1_AdonetCustomer
 
 
         }
+
+        private void FrmCity_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

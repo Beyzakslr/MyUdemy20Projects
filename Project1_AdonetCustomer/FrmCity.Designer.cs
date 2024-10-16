@@ -175,6 +175,7 @@
             this.Name = "FrmCity";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Şehir Bilgi Formu";
+            this.Load += new System.EventHandler(this.FrmCity_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
