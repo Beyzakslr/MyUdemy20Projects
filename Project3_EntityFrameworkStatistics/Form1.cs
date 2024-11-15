@@ -70,7 +70,7 @@ namespace Project3_EntityFrameworkStatistics
 
             //Türkiyeden yapılan siparişler SQL
             
-            var orderCountFromTurkiye = db.Database.SqlQuery<int>("Select count(*) From TblOrder Where CustomerId In (Select CustomerId From TblCustomer Where\r\nCustomerCountry='Türkiye')").FirstOrDefault();
+            var orderCountFromTurkiye = db.Database.SqlQuery<int>("Select count(*) From TblOrder Where CustomerId In (Select CustomerId From TblCustomer Where CustomerCountry='Türkiye')").FirstOrDefault();
             lblOrderCountFromTurkiyeBySQL.Text= orderCountFromTurkiye.ToString();
 
 
