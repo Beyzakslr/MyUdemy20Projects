@@ -151,6 +151,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmCategory";
             this.Text = "Kategory İşlemleri";
+            this.Load += new System.EventHandler(this.FrmCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

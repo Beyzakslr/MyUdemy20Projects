@@ -134,5 +134,15 @@ namespace Project3_EntityFrameworkStatistics
         {
 
         }
+
+        private void lblLastProductName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     } 
 }

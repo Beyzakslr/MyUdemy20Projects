@@ -421,6 +421,7 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(157, 100);
             this.panel11.TabIndex = 14;
+            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
             // lblLastProductName
             // 
@@ -431,6 +432,7 @@
             this.lblLastProductName.Size = new System.Drawing.Size(83, 28);
             this.lblLastProductName.TabIndex = 1;
             this.lblLastProductName.Text = "label21";
+            this.lblLastProductName.Click += new System.EventHandler(this.lblLastProductName_Click);
             // 
             // label22
             // 
